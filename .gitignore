@@ -1,0 +1,20 @@
+# Secrets
+.env
+backend/.env
+
+# Personal data: face photos, trained model, database, logs (never commit these)
+backend/data/
+data/
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Node
+frontend/node_modules/
+
+.DS_Store
